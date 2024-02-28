@@ -7,7 +7,7 @@ const MenuItem = ({ title, price, img, desc }) => {
           <h5>{title}</h5>
           <span className='item-price'>${price}</span>
         </header>
-        <p>{desc}</p>
+        <p className='text-small'>{desc}</p>
       </div>
     </article>
   );
